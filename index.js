@@ -1,3 +1,8 @@
+// See also:
+// https://dev.to/pahund/how-to-fix-blurry-text-on-html-canvases-on-mobile-phones-3iep
+// https://stackoverflow.com/questions/2588181/canvas-is-stretched-when-using-css-but-normal-with-width-height-attributes
+// https://medium.com/@doomgoober/understanding-html-canvas-scaling-and-sizing-c04925d9a830
+
 let canvas1W;
 let canvas1H;
 let canvas2W;
