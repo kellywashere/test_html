@@ -13,11 +13,15 @@ let canvas3H;
 
 function resize() {
 	removeInfoLines();
-	
+	// https://www.quirksmode.org/mobile/viewports.html
+	const sw = screen.width;
+	const sh = screen.height;
 	const ww = window.innerWidth;
 	const wh = window.innerHeight;
+	
 	const dpr = window.devicePixelRatio || 1;
 
+	addInfoLine("Screen: " + sw + " x " + sh);
 	addInfoLine("Window: " + ww + " x " + wh);
 	addInfoLine("Device Pixel Ratio: " + dpr);
 
